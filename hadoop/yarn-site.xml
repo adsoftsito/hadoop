@@ -13,7 +13,18 @@
   limitations under the License. See accompanying LICENSE file.
 -->
 <configuration>
+    <property>
+            <name>yarn.acl.enable</name>
+            <value>0</value>
+    </property>
 
-<!-- Site specific YARN configuration properties -->
+    <property>
+            <name>yarn.resourcemanager.hostname</name>
+            <value>34.136.229.58</value>
+    </property>
 
+    <property>
+            <name>yarn.nodemanager.aux-services</name>
+            <value>mapreduce_shuffle</value>
+    </property>
 </configuration>
